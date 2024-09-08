@@ -21,7 +21,7 @@
 		"@somehow-digital/commitlint-plugin-spellcheck": "^1.0.1",
 		"@somehow-digital/cspell-dictionary": "^1.0.0",
 		"@somehow-digital/prettier-config": "^2.0.0",
-		"concurrently": "^8.2.2",
+		"concurrently": "^9.0.0",
 		"cspell": "^8.8.0",
 		"husky": "^9.0.11",
 		"lint-staged": "^15.2.2",
