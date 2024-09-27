@@ -11,9 +11,9 @@ importers:
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.5.0(@types/node@22.7.3)(typescript@5.5.4)
-      '@somehow-digital/commitlint-plugin-spellcheck':
-        specifier: ^1.0.1
-        version: 1.0.1(cspell@8.14.4)
+      '@somehow-digital/commitlint-config':
+        specifier: ^1.0.0
+        version: 1.0.0(@commitlint/cli@19.5.0(@types/node@22.7.3)(typescript@5.5.4))(cspell@8.14.4)
       '@somehow-digital/cspell-dictionary':
         specifier: ^1.0.0
         version: 1.0.0(cspell@8.14.4)
@@ -1142,6 +1142,12 @@ packages:
   '@smithy/util-waiter@3.1.5':
     resolution: {integrity: sha512-jYOSvM3H6sZe3CHjzD2VQNCjWBJs+4DbtwBMvUp9y5EnnwNa7NQxTeYeQw0CKCAdGGZ3QvVkyJmvbvs5M/B10A==}
     engines: {node: '>=16.0.0'}
+
+  '@somehow-digital/commitlint-config@1.0.0':
+    resolution: {integrity: sha512-rDqDGyHfE26k81a/DDrqQ2E+Pf4cdhTkcUbb0Emz/tE/PWIpSvgG4ENvRYlziuS72+9wHxMTbBcvvtMCmkWGDw==}
+    engines: {node: '>=20', pnpm: '>=9'}
+    peerDependencies:
+      '@commitlint/cli': ^19.5.0
 
   '@somehow-digital/commitlint-plugin-spellcheck@1.0.1':
     resolution: {integrity: sha512-r/P+xImxEEDIzIpO3mnFv3OMwsIM35pRTUPz0U7XiCxFg83ft8ldR6WsXaYUVGmuhqABee+vNmCqtfS0Q/DKfQ==}
@@ -5752,6 +5758,13 @@ snapshots:
       '@smithy/abort-controller': 3.1.4
       '@smithy/types': 3.4.2
       tslib: 2.7.0
+
+  '@somehow-digital/commitlint-config@1.0.0(@commitlint/cli@19.5.0(@types/node@22.7.3)(typescript@5.5.4))(cspell@8.14.4)':
+    dependencies:
+      '@commitlint/cli': 19.5.0(@types/node@22.7.3)(typescript@5.5.4)
+      '@somehow-digital/commitlint-plugin-spellcheck': 1.0.1(cspell@8.14.4)
+    transitivePeerDependencies:
+      - cspell
 
   '@somehow-digital/commitlint-plugin-spellcheck@1.0.1(cspell@8.14.4)':
     dependencies:
