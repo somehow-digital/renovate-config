@@ -4,5 +4,11 @@
 	"assigneesFromCodeOwners": true,
 	"prConcurrentLimit": 0,
 	"prHourlyLimit": 0,
-	"postUpdateOptions": ["pnpmDedupe"]
+	"postUpdateOptions": ["pnpmDedupe"],
+	"packageRules": [
+		{
+			"matchPackageNames": ["@builder.io/qwik", "@builder.io/qwik-city"],
+			"groupName": "qwik"
+		}
+	]
 }
