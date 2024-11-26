@@ -1,11 +1,18 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended"],
+	"extends": [
+		":dependencyDashboard",
+		":ignoreModulesAndTests",
+		"group:monorepos",
+		"group:recommended",
+		"replacements:all",
+		"workarounds:all"
+	],
+	"dependencyDashboard": true,
 	"assigneesFromCodeOwners": true,
 	"prConcurrentLimit": 0,
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
-	"semanticCommitType": "chore",
 	"postUpdateOptions": ["pnpmDedupe"],
 	"packageRules": [
 		{
