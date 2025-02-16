@@ -2,7 +2,7 @@
 	"name": "@somehow-digital/renovate-config",
 	"private": true,
 	"type": "module",
-	"packageManager": "pnpm@10.4.0",
+	"packageManager": "pnpm@10.4.1",
 	"engines": {
 		"node": ">=20",
 		"pnpm": ">=9"
