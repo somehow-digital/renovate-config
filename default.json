@@ -14,6 +14,17 @@
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
 	"postUpdateOptions": ["pnpmDedupe"],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"recreateWhen": "always",
+		"rebaseStalePrs": true,
+		"branchTopic": "lock-file-maintenance",
+		"commitMessageAction": "Lock file maintenance",
+		"schedule": ["at any time"],
+		"prBodyDefinitions": {
+			"Change": "All locks refreshed"
+		}
+	},
 	"packageRules": [
 		{
 			"matchPackageNames": ["drizzle-kit", "drizzle-orm", "drizzle-valibot"],
