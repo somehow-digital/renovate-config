@@ -19,7 +19,7 @@
 		"recreateWhen": "always",
 		"rebaseStalePrs": true,
 		"branchTopic": "lock-file-maintenance",
-		"commitMessageAction": "Lock file maintenance",
+		"commitMessageAction": "update pnpm lockfile",
 		"schedule": ["at any time"],
 		"prBodyDefinitions": {
 			"Change": "All locks refreshed"
