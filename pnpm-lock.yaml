@@ -37,7 +37,7 @@ importers:
         version: 3.5.3
       renovate:
         specifier: ^39.0.0
-        version: 39.188.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.191.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -3060,8 +3060,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.188.0:
-    resolution: {integrity: sha512-S6OW7DiJH2ejhWh2Y1JEZ3Wdl6Dmlv175fUcRJVEti8vidGg+lGvfnn3rG5BF86+dspcM2Z73jVx+zhw3hC77w==}
+  renovate@39.191.1:
+    resolution: {integrity: sha512-iX6n3g6G9yMxitHQtMRhKMwUfccaCQW8nt7tQ7XO8vkRz/mZ6wHq7FqcS5/uzftO1V0Wf1M7BVotFnR9yYrCEQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3685,8 +3685,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  yocto-queue@1.1.1:
-    resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
+  yocto-queue@1.2.0:
+    resolution: {integrity: sha512-KHBC7z61OJeaMGnF3wqNZj+GGNXOyypZviiKpQeiHirG5Ib1ImwcLBH70rbMSkKfSmUNBsdf2PwaEJtKvgmkNw==}
     engines: {node: '>=12.20'}
 
   zod@3.24.2:
@@ -7381,7 +7381,7 @@ snapshots:
 
   p-limit@4.0.0:
     dependencies:
-      yocto-queue: 1.1.1
+      yocto-queue: 1.2.0
 
   p-locate@4.1.0:
     dependencies:
@@ -7657,7 +7657,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.188.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.191.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -8426,7 +8426,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  yocto-queue@1.1.1: {}
+  yocto-queue@1.2.0: {}
 
   zod@3.24.2: {}
 
