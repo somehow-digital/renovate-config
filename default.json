@@ -20,7 +20,7 @@
 		"rebaseStalePrs": true,
 		"branchTopic": "lock-file-maintenance",
 		"commitMessageAction": "update pnpm lockfile",
-		"schedule": ["at any time"],
+		"schedule": ["* 0-4 * * *"],
 		"prBodyDefinitions": {
 			"Change": "All locks refreshed"
 		}
