@@ -37,7 +37,7 @@ importers:
         version: 3.5.3
       renovate:
         specifier: ^39.0.0
-        version: 39.232.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.233.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1169,8 +1169,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.2.1':
-    resolution: {integrity: sha512-+nXgfe/SE1lGedYuLNvgFGT5DNTb2pc6XJQCok1zoGGxbhqdTfslcFcPQrarSOjbhYK+Vl/PfWP9o6j/YIcuDw==}
+  '@yarnpkg/core@4.3.0':
+    resolution: {integrity: sha512-7KdrddBCgYMT/rQePALrsWRmtKFvYH6dlEfftte0A1ItcQ6JVNsLBHIIzVlHxUQ9AyHMaVDt169zfBc7OzdMtw==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.2':
@@ -1297,8 +1297,8 @@ packages:
   better-sqlite3@11.9.1:
     resolution: {integrity: sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==}
 
-  bignumber.js@9.1.2:
-    resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
+  bignumber.js@9.2.0:
+    resolution: {integrity: sha512-JocpCSOixzy5XFJi2ub6IMmV/G9i8Lrm2lZvwBv9xPdglmZM0ufDVBbjbrfU/zuLvBfD7Bv2eYxz9i+OHTgkew==}
 
   bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
@@ -1976,8 +1976,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  git-up@8.0.1:
-    resolution: {integrity: sha512-2XFu1uNZMSjkyetaF+8rqn6P0XqpMq/C+2ycjI6YwrIKcszZ5/WR4UubxjN0lILOKqLkLaHDaCr2B6fP1cke6g==}
+  git-up@8.1.0:
+    resolution: {integrity: sha512-cT2f5ERrhFDMPS5wLHURcjRiacC8HonX0zIAWBTwHv1fS6HheP902l6pefOX/H9lNmvCHDwomw0VeN7nhg5bxg==}
 
   git-url-parse@16.0.1:
     resolution: {integrity: sha512-mcD36GrhAzX5JVOsIO52qNpgRyFzYWRbU1VSRFCvJt1IJvqfvH427wWw/CFqkWvjVPtdG5VTx4MKUeC5GeFPDQ==}
@@ -3038,8 +3038,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.232.2:
-    resolution: {integrity: sha512-3KHFOhXEwtZWY0v9ZAHhrUO/NUnMFPG0nzNantBW29USI6y0O7Exf3H/4ZT1j+r3Vx3ilB/5k9UvgEARruyRJQ==}
+  renovate@39.233.4:
+    resolution: {integrity: sha512-ehg5d97oyTf0jFWv8kBqz5e/Scfq1vqGkhhMTmNK0MUNF8klyGgv18i7eO76+bOQzoS/ndwiJR9d+3QkL9p99g==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3630,11 +3630,6 @@ packages:
   yallist@5.0.0:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
-
-  yaml@2.7.0:
-    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.7.1:
     resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
@@ -5607,7 +5602,7 @@ snapshots:
       '@types/node': 22.14.0
     optional: true
 
-  '@yarnpkg/core@4.2.1(typanion@3.14.0)':
+  '@yarnpkg/core@4.3.0(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.0
@@ -5757,7 +5752,7 @@ snapshots:
       prebuild-install: 7.1.3
     optional: true
 
-  bignumber.js@9.1.2: {}
+  bignumber.js@9.2.0: {}
 
   bindings@1.5.0:
     dependencies:
@@ -6513,14 +6508,14 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  git-up@8.0.1:
+  git-up@8.1.0:
     dependencies:
       is-ssh: 1.4.1
       parse-url: 9.2.0
 
   git-url-parse@16.0.1:
     dependencies:
-      git-up: 8.0.1
+      git-up: 8.1.0
 
   github-from-package@0.0.0:
     optional: true
@@ -6884,7 +6879,7 @@ snapshots:
 
   json-bigint@1.0.0:
     dependencies:
-      bignumber.js: 9.1.2
+      bignumber.js: 9.2.0
 
   json-buffer@3.0.1: {}
 
@@ -7659,7 +7654,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.232.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.233.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -7689,7 +7684,7 @@ snapshots:
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0
-      '@yarnpkg/core': 4.2.1(typanion@3.14.0)
+      '@yarnpkg/core': 4.3.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       agentkeepalive: 4.6.0
       aggregate-error: 3.1.0
@@ -7771,7 +7766,7 @@ snapshots:
       validate-npm-package-name: 6.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
-      yaml: 2.7.0
+      yaml: 2.7.1
       zod: 3.24.2
     optionalDependencies:
       better-sqlite3: 11.9.1
@@ -8398,8 +8393,6 @@ snapshots:
   yallist@4.0.0: {}
 
   yallist@5.0.0: {}
-
-  yaml@2.7.0: {}
 
   yaml@2.7.1: {}
 
