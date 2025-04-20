@@ -387,8 +387,8 @@ packages:
   '@cspell/dict-data-science@2.0.8':
     resolution: {integrity: sha512-uyAtT+32PfM29wRBeAkUSbkytqI8bNszNfAz2sGPtZBRmsZTYugKMEO9eDjAIE/pnT9CmbjNuoiXhk+Ss4fCOg==}
 
-  '@cspell/dict-de-de@4.0.3':
-    resolution: {integrity: sha512-HxoPd3ra/gHVeUKq9NMCX5gOHpaL9lyhHQi/2CXBrSE7yrB5cusrPoKFh+xYGI1hG8rrrPLLDKF+vbB66YR4/A==}
+  '@cspell/dict-de-de@4.1.0':
+    resolution: {integrity: sha512-BF1ouiRbZ+YmzTGu1JZkrzYCFBisxADJvoouNI7C7KZzx9gmRvezKgDWTXQ1tD4ZtNOoX5rdpXTWxf6sXnmBew==}
 
   '@cspell/dict-django@4.1.4':
     resolution: {integrity: sha512-fX38eUoPvytZ/2GA+g4bbdUtCMGNFSLbdJJPKX2vbewIQGfgSFJKY56vvcHJKAvw7FopjvgyS/98Ta9WN1gckg==}
@@ -4725,7 +4725,7 @@ snapshots:
 
   '@cspell/dict-data-science@2.0.8': {}
 
-  '@cspell/dict-de-de@4.0.3': {}
+  '@cspell/dict-de-de@4.1.0': {}
 
   '@cspell/dict-django@4.1.4': {}
 
@@ -5550,7 +5550,7 @@ snapshots:
 
   '@somehow-digital/cspell-dictionary@2.6.0(cspell@8.19.2)':
     dependencies:
-      '@cspell/dict-de-de': 4.0.3
+      '@cspell/dict-de-de': 4.1.0
       cspell: 8.19.2
 
   '@somehow-digital/prettier-config@2.0.0(prettier@3.5.3)':
