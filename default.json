@@ -16,14 +16,8 @@
 	"postUpdateOptions": ["pnpmDedupe"],
 	"lockFileMaintenance": {
 		"enabled": true,
-		"recreateWhen": "always",
-		"rebaseStalePrs": true,
-		"branchTopic": "lock-file-maintenance",
 		"commitMessageAction": "update pnpm lockfile",
-		"schedule": ["* 0-6 * * 0"],
-		"prBodyDefinitions": {
-			"Change": "All locks refreshed"
-		}
+		"schedule": ["* 0-6 * * 0"]
 	},
 	"packageRules": [
 		{
