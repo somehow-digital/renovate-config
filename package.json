@@ -12,7 +12,7 @@
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml,js}'",
 		"lint:cspell": "cspell --no-progress --no-summary --dot --no-must-find-files '**/*.*'",
-		"lint:renovate": "renovate-config-validator default.json",
+		"lint:renovate": "renovate-config-validator --strict default.json",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
 		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'"
 	},
