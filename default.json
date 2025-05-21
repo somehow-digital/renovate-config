@@ -30,7 +30,8 @@
 		},
 		{
 			"matchPackageNames": ["pnpm"],
-			"allowedVersions": "<10.9.0"
+			"matchCurrentVersion": ">10.8.1",
+			"replacementVersion": "10.8.1"
 		}
 	]
 }
