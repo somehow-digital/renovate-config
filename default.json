@@ -27,10 +27,6 @@
 		{
 			"matchPackageNames": ["@builder.io/qwik", "@builder.io/qwik-city"],
 			"groupName": "qwik"
-		},
-		{
-			"matchPackageNames": ["pnpm"],
-			"allowedVersions": "<10.9.0"
 		}
 	]
 }
