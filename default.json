@@ -27,6 +27,10 @@
 		{
 			"matchPackageNames": ["@builder.io/qwik", "@builder.io/qwik-city"],
 			"groupName": "qwik"
+		},
+		{
+			"matchPackageNames": ["nuxthub", "@nuxthub/*"],
+			"groupName": "nuxthub"
 		}
 	]
 }
