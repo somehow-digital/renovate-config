@@ -37,7 +37,7 @@ importers:
         version: 3.5.3
       renovate:
         specifier: ^40.0.0
-        version: 40.49.5(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.49.8(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1230,8 +1230,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.4.1':
-    resolution: {integrity: sha512-iWCcc7BVN2SPZahM55FoOL36NvfOnw8j90G5PqOyjBwfCJngj7jTeT16cj27fFfHYlq+gwuu4I/tkHYzZ2mplQ==}
+  '@yarnpkg/core@4.4.2':
+    resolution: {integrity: sha512-Gf2p9WUygkcT8GobVjrQpFGE7A/GWXPXjDSIFTnZKTiq/W8giN3jqhWpIrpVa2XfPMguXzdEvb2brNYeW3IwdQ==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.2':
@@ -1448,10 +1448,6 @@ packages:
   chalk-template@1.1.0:
     resolution: {integrity: sha512-T2VJbcDuZQ0Tb2EWwSotMPJjgpy1/tGee1BTpUNsGZ/qgNjV2t7Mvu+d4600U564nbLesN1x2dPL+xii174Ekg==}
     engines: {node: '>=14.16'}
-
-  chalk@3.0.0:
-    resolution: {integrity: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==}
-    engines: {node: '>=8'}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2151,6 +2147,10 @@ packages:
   hosted-git-info@4.1.0:
     resolution: {integrity: sha512-kyCuEOWjJqZuDbRHzL8V93NzQhwIB71oFWSyzVo+KPZI+pnQPPxucdkrOZvkLRnrf5URsQM+IJ09Dw29cRALIA==}
     engines: {node: '>=10'}
+
+  hpagent@1.2.0:
+    resolution: {integrity: sha512-A91dYTeIB6NoXG+PxTQpCCDDnfHsW9kc06Lvpu1TEe9gnd6ZFeiBoRO9JvzEv6xK7EX97/dUE8g/vBMTqTS3CA==}
+    engines: {node: '>=14'}
 
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
@@ -3052,8 +3052,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.49.5:
-    resolution: {integrity: sha512-BFjE1ePZrscIau1e11N2NJ6KnfsVKhSJ+ImVstGLc/4Tq77dOXOMF92IpSv/SGwJfwrfuo4+DPvt1Nas8cOZzw==}
+  renovate@40.49.8:
+    resolution: {integrity: sha512-6ayKlzND3FNtGvw8AJJD3KMB46w1bSUWP5qU6STxScPpBwydp0d6hGCloBEk5TmwxGGvkqtyWUWEg3kkkD8r7w==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3655,8 +3655,8 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zod@3.25.49:
-    resolution: {integrity: sha512-JMMPMy9ZBk3XFEdbM3iL1brx4NUSejd6xr3ELrrGEfGb355gjhiAWtG3K5o+AViV/3ZfkIrCzXsZn6SbLwTR8Q==}
+  zod@3.25.50:
+    resolution: {integrity: sha512-VstOnRxf4tlSq0raIwbn0n+LA34SxVoZ8r3pkwSUM0jqNiA/HCMQEVjTuS5FZmHsge+9MDGTiAuHyml5T0um6A==}
 
   zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
@@ -5206,7 +5206,7 @@ snapshots:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.25.49
+      zod: 3.25.50
 
   '@renovatebot/kbpgp@4.0.1':
     dependencies:
@@ -5705,7 +5705,7 @@ snapshots:
       '@types/node': 24.0.0
     optional: true
 
-  '@yarnpkg/core@4.4.1(typanion@3.14.0)':
+  '@yarnpkg/core@4.4.2(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.0
@@ -5715,7 +5715,7 @@ snapshots:
       '@yarnpkg/parsers': 3.0.3
       '@yarnpkg/shell': 4.1.3(typanion@3.14.0)
       camelcase: 5.3.1
-      chalk: 3.0.0
+      chalk: 4.1.2
       ci-info: 4.2.0
       clipanion: 4.0.0-rc.4(typanion@3.14.0)
       cross-spawn: 7.0.6
@@ -5723,6 +5723,7 @@ snapshots:
       dotenv: 16.5.0
       fast-glob: 3.3.3
       got: 11.8.6
+      hpagent: 1.2.0
       lodash: 4.17.21
       micromatch: 4.0.8
       p-limit: 2.3.0
@@ -5732,7 +5733,6 @@ snapshots:
       tinylogic: 2.0.0
       treeify: 1.1.0
       tslib: 2.8.1
-      tunnel: 0.0.6
     transitivePeerDependencies:
       - typanion
 
@@ -5968,11 +5968,6 @@ snapshots:
   chalk-template@1.1.0:
     dependencies:
       chalk: 5.4.1
-
-  chalk@3.0.0:
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
 
   chalk@4.1.2:
     dependencies:
@@ -6771,6 +6766,8 @@ snapshots:
   hosted-git-info@4.1.0:
     dependencies:
       lru-cache: 6.0.0
+
+  hpagent@1.2.0: {}
 
   http-cache-semantics@4.2.0: {}
 
@@ -7725,7 +7722,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.49.5(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.49.8(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.821.0
       '@aws-sdk/client-ec2': 3.821.0
@@ -7759,7 +7756,7 @@ snapshots:
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 7.0.1
-      '@yarnpkg/core': 4.4.1(typanion@3.14.0)
+      '@yarnpkg/core': 4.4.2(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
@@ -7841,7 +7838,7 @@ snapshots:
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
       yaml: 2.8.0
-      zod: 3.25.49
+      zod: 3.25.50
     optionalDependencies:
       better-sqlite3: 11.10.0
       openpgp: 6.1.1
@@ -8477,6 +8474,6 @@ snapshots:
 
   yocto-queue@1.2.1: {}
 
-  zod@3.25.49: {}
+  zod@3.25.50: {}
 
   zwitch@1.0.5: {}
