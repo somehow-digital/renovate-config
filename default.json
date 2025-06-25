@@ -12,6 +12,7 @@
 	"assigneesFromCodeOwners": true,
 	"prConcurrentLimit": 0,
 	"prHourlyLimit": 0,
+	"minimumReleaseAge": "3 days",
 	"semanticCommits": "enabled",
 	"postUpdateOptions": ["pnpmDedupe"],
 	"lockFileMaintenance": {
