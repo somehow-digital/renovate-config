@@ -26,7 +26,7 @@
 		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.3.0",
+		"@commitlint/cli": "^20.0.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
 		"@somehow-digital/prettier-config": "^3.0.0",
