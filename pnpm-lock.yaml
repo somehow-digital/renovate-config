@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.0.0
-        version: 20.1.0(@types/node@24.7.0)(typescript@5.9.3)
+        version: 20.1.0(@types/node@24.7.1)(typescript@5.9.3)
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
-        version: 1.1.0(@commitlint/cli@20.1.0(@types/node@24.7.0)(typescript@5.9.3))(cspell@9.2.1)
+        version: 1.1.0(@commitlint/cli@20.1.0(@types/node@24.7.1)(typescript@5.9.3))(cspell@9.2.1)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
         version: 2.13.0(cspell@9.2.1)
@@ -37,7 +37,7 @@ importers:
         version: 3.6.2
       renovate:
         specifier: ^41.0.0
-        version: 41.143.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.144.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1190,8 +1190,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.7.0':
-    resolution: {integrity: sha512-IbKooQVqUBrlzWTi79E8Fw78l8k1RNtlDDNWsFZs7XonuQSJ8oNYfEeclhprUldXISRMLzBpILuKgPlIxm+/Yw==}
+  '@types/node@24.7.1':
+    resolution: {integrity: sha512-CmyhGZanP88uuC5GpWU9q+fI61j2SkhO3UGMUdfYRE6Bcy0ccyzn1Rqj9YAB/ZY4kOXmNf0ocah5GtphmLMP6Q==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1555,8 +1555,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  core-js-pure@3.45.1:
-    resolution: {integrity: sha512-OHnWFKgTUshEU8MK+lOs1H8kC8GkTi9Z1tvNkxrCcw9wl3MJIO7q2ld77wjWn4/xuGrVu2X+nME1iIIPBSdyEQ==}
+  core-js-pure@3.46.0:
+    resolution: {integrity: sha512-NMCW30bHNofuhwLhYPt66OLOKTMbOhgTTatKVbaQC3KRHpTCiRIBYvtshr+NBYSnBxwAFhjW/RfJ0XbIjS16rw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -3127,8 +3127,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.143.2:
-    resolution: {integrity: sha512-R5yYnxK9l1fmFEpaPQF12fiHJssiXkYb3XUnnN3gY2P5Hxr3yUVGCqbpjuEbyX7aHK9FCCKGzNVsZN1ZPaHPoQ==}
+  renovate@41.144.0:
+    resolution: {integrity: sha512-iTE30pLuvZCoWCymOF3P53acVUbR1MLjxM3Sb3BKfPJy5I2GSIzaWSsWkio2vCoCwiXFG6OYqVvtnFJRnHA/nQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3236,6 +3236,11 @@ packages:
 
   semver@7.7.2:
     resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4564,7 +4569,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.28.4':
     dependencies:
-      core-js-pure: 3.45.1
+      core-js-pure: 3.46.0
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -4574,11 +4579,11 @@ snapshots:
     dependencies:
       fs-extra: 11.3.0
 
-  '@commitlint/cli@20.1.0(@types/node@24.7.0)(typescript@5.9.3)':
+  '@commitlint/cli@20.1.0(@types/node@24.7.1)(typescript@5.9.3)':
     dependencies:
       '@commitlint/format': 20.0.0
       '@commitlint/lint': 20.0.0
-      '@commitlint/load': 20.1.0(@types/node@24.7.0)(typescript@5.9.3)
+      '@commitlint/load': 20.1.0(@types/node@24.7.1)(typescript@5.9.3)
       '@commitlint/read': 20.0.0
       '@commitlint/types': 20.0.0
       tinyexec: 1.0.1
@@ -4616,7 +4621,7 @@ snapshots:
   '@commitlint/is-ignored@20.0.0':
     dependencies:
       '@commitlint/types': 20.0.0
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@commitlint/lint@20.0.0':
     dependencies:
@@ -4625,7 +4630,7 @@ snapshots:
       '@commitlint/rules': 20.0.0
       '@commitlint/types': 20.0.0
 
-  '@commitlint/load@20.1.0(@types/node@24.7.0)(typescript@5.9.3)':
+  '@commitlint/load@20.1.0(@types/node@24.7.1)(typescript@5.9.3)':
     dependencies:
       '@commitlint/config-validator': 20.0.0
       '@commitlint/execute-rule': 20.0.0
@@ -4633,7 +4638,7 @@ snapshots:
       '@commitlint/types': 20.0.0
       chalk: 5.6.2
       cosmiconfig: 9.0.0(typescript@5.9.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.7.0)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.7.1)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -4957,7 +4962,7 @@ snapshots:
 
   '@npmcli/fs@4.0.0':
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@one-ini/wasm@0.2.0': {}
 
@@ -5605,9 +5610,9 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@somehow-digital/commitlint-config@1.1.0(@commitlint/cli@20.1.0(@types/node@24.7.0)(typescript@5.9.3))(cspell@9.2.1)':
+  '@somehow-digital/commitlint-config@1.1.0(@commitlint/cli@20.1.0(@types/node@24.7.1)(typescript@5.9.3))(cspell@9.2.1)':
     dependencies:
-      '@commitlint/cli': 20.1.0(@types/node@24.7.0)(typescript@5.9.3)
+      '@commitlint/cli': 20.1.0(@types/node@24.7.1)(typescript@5.9.3)
       '@commitlint/config-conventional': 19.8.1
       '@somehow-digital/commitlint-plugin-spellcheck': 1.1.0(cspell@9.2.1)
     transitivePeerDependencies:
@@ -5670,18 +5675,18 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
       '@types/responselike': 1.0.3
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/debug@4.1.12':
     dependencies:
@@ -5693,7 +5698,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -5705,7 +5710,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.7.0':
+  '@types/node@24.7.1':
     dependencies:
       undici-types: 7.14.0
 
@@ -5717,7 +5722,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/semver@7.7.1': {}
 
@@ -5727,7 +5732,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
     optional: true
 
   '@yarnpkg/core@4.4.4(typanion@3.14.0)':
@@ -5752,7 +5757,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.7.2
+      semver: 7.7.3
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -5927,7 +5932,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -6123,13 +6128,13 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  core-js-pure@3.45.1: {}
+  core-js-pure@3.46.0: {}
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@24.7.0)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@24.7.1)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
       typescript: 5.9.3
@@ -6239,7 +6244,7 @@ snapshots:
       cspell-lib: 9.2.1
       fast-json-stable-stringify: 2.1.0
       flatted: 3.3.3
-      semver: 7.7.2
+      semver: 7.7.3
       tinyglobby: 0.2.15
 
   css-select@5.2.2:
@@ -6364,7 +6369,7 @@ snapshots:
       '@one-ini/wasm': 0.2.0
       commander: 14.0.1
       minimatch: 10.0.1
-      semver: 7.7.2
+      semver: 7.7.3
 
   email-addresses@5.0.0: {}
 
@@ -6683,7 +6688,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.2
+      semver: 7.7.3
       serialize-error: 7.0.1
 
   global-directory@4.0.1:
@@ -7627,7 +7632,7 @@ snapshots:
 
   node-abi@3.78.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     optional: true
 
   node-domexception@1.0.0: {}
@@ -7652,7 +7657,7 @@ snapshots:
       make-fetch-happen: 14.0.3
       nopt: 8.1.0
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       tar: 7.5.1
       tinyglobby: 0.2.15
       which: 5.0.0
@@ -7681,7 +7686,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-license: 3.0.4
 
   normalize-url@6.1.0: {}
@@ -7860,7 +7865,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -7995,7 +8000,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.143.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.144.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.899.0
       '@aws-sdk/client-ec2': 3.899.0
@@ -8220,6 +8225,8 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.2: {}
+
+  semver@7.7.3: {}
 
   serialize-error@7.0.1:
     dependencies:
