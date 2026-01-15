@@ -20,11 +20,16 @@
 		"schedule": ["* 0-6 * * 0"]
 	},
 	"vulnerabilityAlerts": {
-		"labels": ["security"],
+		"enabled": true,
 		"automerge": false,
-		"schedule": ["at any time"]
+		"labels": ["security"]
 	},
 	"packageRules": [
+		{
+			"matchFileNames": ["pnpm-lock.yaml"],
+			"enabled": true,
+			"schedule": ["at any time"]
+		},
 		{
 			"matchPackageNames": ["drizzle-kit", "drizzle-orm", "drizzle-valibot"],
 			"groupName": "drizzle"
