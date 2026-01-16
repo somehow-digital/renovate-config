@@ -1,13 +1,6 @@
 {
 	"$schema": "./node_modules/renovate/renovate-schema.json",
-	"extends": [
-		":dependencyDashboard",
-		":ignoreModulesAndTests",
-		"group:monorepos",
-		"group:recommended",
-		"replacements:all",
-		"workarounds:all"
-	],
+	"extends": [":ignoreModulesAndTests", "group:monorepos", "group:recommended", "replacements:all", "workarounds:all"],
 	"dependencyDashboard": true,
 	"assigneesFromCodeOwners": true,
 	"prConcurrentLimit": 0,
@@ -17,7 +10,7 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"commitMessageAction": "update pnpm lockfile",
-		"schedule": ["* 0-6 * * 0"]
+		"schedule": ["* 0-6 1 * *"]
 	},
 	"vulnerabilityAlerts": {
 		"enabled": true,
@@ -25,11 +18,6 @@
 		"labels": ["security"]
 	},
 	"packageRules": [
-		{
-			"matchFileNames": ["pnpm-lock.yaml"],
-			"enabled": true,
-			"schedule": ["at any time"]
-		},
 		{
 			"matchPackageNames": ["drizzle-kit", "drizzle-orm", "drizzle-valibot"],
 			"groupName": "drizzle"
