@@ -2,7 +2,7 @@
 	"name": "@somehow-digital/renovate-config",
 	"private": true,
 	"type": "module",
-	"packageManager": "pnpm@10.28.2",
+	"packageManager": "pnpm@10.29.3",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"better-sqlite3",
