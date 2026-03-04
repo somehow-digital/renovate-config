@@ -9,7 +9,7 @@
 	"postUpdateOptions": ["pnpmDedupe"],
 	"lockFileMaintenance": {
 		"enabled": true,
-		"commitMessageAction": "update pnpm lockfile",
+		"commitMessageAction": "update lockfiles",
 		"schedule": ["* 0-6 1 * *"]
 	},
 	"vulnerabilityAlerts": {
