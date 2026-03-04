@@ -37,7 +37,7 @@ importers:
         version: 3.8.1
       renovate:
         specifier: ^43.0.0
-        version: 43.52.1(typanion@3.14.0)
+        version: 43.53.0(typanion@3.14.0)
 
 packages:
 
@@ -3133,8 +3133,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.52.1:
-    resolution: {integrity: sha512-Xd7ce8QRMGxvJypLRnHYumeAjKYZ0oPv1FFf6ZKAiZoxAe1+oecqbYQaik0z9691ZuIq0K/XWws8vhSux9csfQ==}
+  renovate@43.53.0:
+    resolution: {integrity: sha512-+EOlJQjqGpT2L4GQZ2S2wcIKi90vxDjrlrDwUvKQOn3qf0uzJ/m5+V8aJrxU0IDUvWm1+iWTU+c0c9QmDCrcSg==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3461,8 +3461,8 @@ packages:
     engines: {node: '>=10'}
     deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
-  tar@7.5.9:
-    resolution: {integrity: sha512-BTLcK0xsDh2+PUe9F6c2TlRp4zOOBMTkoQHQIWSIzI0R7KG46uEwq4OPk2W7bZcprBMsuaeFsqwYr7pjh6CuHg==}
+  tar@7.5.10:
+    resolution: {integrity: sha512-8mOPs1//5q/rlkNSPcCegA6hiHJYDmSLEI8aMH/CdSQJNWztHC9WHNam5zdQlfpTwB9Xp7IBEsHfV5LKMJGVAw==}
     engines: {node: '>=18'}
 
   through2-concurrent@2.0.0:
@@ -7598,7 +7598,7 @@ snapshots:
       nopt: 9.0.0
       proc-log: 6.1.0
       semver: 7.7.4
-      tar: 7.5.9
+      tar: 7.5.10
       tinyglobby: 0.2.15
       which: 6.0.1
     transitivePeerDependencies:
@@ -7925,7 +7925,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.52.1(typanion@3.14.0):
+  renovate@43.53.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -8396,7 +8396,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  tar@7.5.9:
+  tar@7.5.10:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
