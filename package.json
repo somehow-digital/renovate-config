@@ -1,40 +1,35 @@
 {
 	"name": "@somehow-digital/renovate-config",
-	"private": true,
 	"type": "module",
+	"private": true,
 	"packageManager": "pnpm@10.33.0",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"better-sqlite3",
-			"core-js-pure",
-			"dtrace-provider",
-			"protobufjs",
-			"re2"
-		]
-	},
 	"engines": {
-		"node": ">=20",
+		"node": ">=22",
 		"pnpm": ">=10"
 	},
 	"scripts": {
 		"prepare": "husky",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
-		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml,js}'",
-		"lint:cspell": "cspell --no-progress --no-summary --dot --no-must-find-files '**/*.*'",
+		"lint:eslint": "eslint .",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files .",
+		"lint:knip": "knip --no-progress",
 		"lint:renovate": "renovate-config-validator --strict default.json",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'"
+		"fix:eslint": "eslint --fix .",
+		"fix:knip": "knip --no-progress --fix"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^20.0.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
-		"@somehow-digital/prettier-config": "^3.0.0",
+		"@somehow-digital/eslint-config": "^5.0.0",
+		"@types/node": "^24.0.0",
 		"concurrently": "^9.0.0",
 		"cspell": "^9.0.0",
+		"eslint": "^10.1.0",
 		"husky": "^9.0.11",
+		"knip": "^6.0.0",
 		"lint-staged": "^16.0.0",
-		"prettier": "3.8.1",
 		"renovate": "^43.0.0"
 	}
 }

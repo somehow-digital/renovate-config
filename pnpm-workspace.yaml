@@ -1,0 +1,14 @@
+allowBuilds:
+  better-sqlite3: true
+  core-js-pure: true
+  dtrace-provider: true
+  protobufjs: true
+  re2: true
+blockExoticSubdeps: true
+enablePrePostScripts: false
+ignorePatchFailures: false
+optimisticRepeatInstall: true
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 10080
+verifyDepsBeforeRun: install
