@@ -43,7 +43,7 @@ importers:
         version: 16.4.0
       renovate:
         specifier: ^43.0.0
-        version: 43.104.1(typanion@3.14.0)
+        version: 43.104.4(typanion@3.14.0)
 
 packages:
 
@@ -4210,8 +4210,8 @@ packages:
     resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
     engines: {node: '>=8'}
 
-  path-expression-matcher@1.2.0:
-    resolution: {integrity: sha512-DwmPWeFn+tq7TiyJ2CxezCAirXjFxvaiD03npak3cRjlP9+OjTmSy1EpIrEbh+l6JgUundniloMLDQ/6VTdhLQ==}
+  path-expression-matcher@1.2.1:
+    resolution: {integrity: sha512-d7gQQmLvAKXKXE2GeP9apIGbMYKz88zWdsn/BN2HRWVQsDFdUY36WSLTY0Jvd4HWi7Fb30gQ62oAOzdgJA6fZw==}
     engines: {node: '>=14.0.0'}
 
   path-is-absolute@1.0.1:
@@ -4379,8 +4379,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.104.1:
-    resolution: {integrity: sha512-tk841OJHMRK1pxEAXa3aNqs1wJBT2Kb2dbHZbXdEdlyFdkC2kQtfIQLoaYb6uTDD0B78dtho9aoxjhX2ozT9Mw==}
+  renovate@43.104.4:
+    resolution: {integrity: sha512-WYR0utTrWDN1pjGoGcvbSyf/jJ+/er80tlvYLp5JYjr5DyNtc0ouJ+Z1jDtubTcxuu6r+LMuDcw4M94G3Zu/RA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -9016,12 +9016,12 @@ snapshots:
 
   fast-xml-builder@1.1.4:
     dependencies:
-      path-expression-matcher: 1.2.0
+      path-expression-matcher: 1.2.1
 
   fast-xml-parser@5.5.8:
     dependencies:
       fast-xml-builder: 1.1.4
-      path-expression-matcher: 1.2.0
+      path-expression-matcher: 1.2.1
       strnum: 2.2.2
 
   fastq@1.20.1:
@@ -10401,7 +10401,7 @@ snapshots:
 
   path-exists@4.0.0: {}
 
-  path-expression-matcher@1.2.0: {}
+  path-expression-matcher@1.2.1: {}
 
   path-is-absolute@1.0.1:
     optional: true
@@ -10624,7 +10624,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.104.1(typanion@3.14.0):
+  renovate@43.104.4(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
