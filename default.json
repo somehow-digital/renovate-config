@@ -30,6 +30,10 @@
 		{
 			"matchPackageNames": ["nuxthub", "@nuxthub/*"],
 			"groupName": "nuxthub"
+		},
+		{
+			"matchPackageNames": ["vite", "vite-plus", "@voidzero-dev/vite-plus-core"],
+			"groupName": "vite"
 		}
 	]
 }
