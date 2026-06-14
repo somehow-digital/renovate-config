@@ -8,6 +8,7 @@
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
 	"postUpdateOptions": ["pnpmDedupe"],
+	"minimumReleaseAge": "24 hours",
 	"lockFileMaintenance": {
 		"enabled": true,
 		"commitMessageAction": "update lockfiles",
