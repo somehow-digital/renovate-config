@@ -4,7 +4,6 @@
 	"dependencyDashboard": true,
 	"assigneesFromCodeOwners": true,
 	"reviewersFromCodeOwners": true,
-	"prCreation": "not-pending",
 	"prConcurrentLimit": 0,
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
