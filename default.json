@@ -12,7 +12,8 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"commitMessageAction": "update lockfiles",
-		"schedule": ["* 0-6 1 * *"]
+		"schedule": ["* 0-6 1 * *"],
+		"minimumReleaseAgeBehaviour": "timestamp-optional"
 	},
 	"vulnerabilityAlerts": {
 		"enabled": true,
