@@ -36,6 +36,10 @@
 		{
 			"matchPackageNames": ["vite", "vite-plus", "@voidzero-dev/vite-plus-core"],
 			"groupName": "vite"
+		},
+		{
+			"matchPackageNames": ["react", "react-dom", "react-router", "react-router-dom"],
+			"groupName": "react"
 		}
 	]
 }
