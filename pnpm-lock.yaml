@@ -43,7 +43,7 @@ importers:
         version: 17.2.0
       renovate:
         specifier: ^43.0.0
-        version: 43.280.4(supports-color@10.2.2)(typanion@3.14.0)
+        version: 43.284.0(supports-color@10.2.2)(typanion@3.14.0)
 
 packages:
 
@@ -3315,8 +3315,8 @@ packages:
     resolution: {integrity: sha512-75EA7EWZExL/j+MDKQrRbdzcRI2HOkRlmUw8fZJc1ioqFEOvBsq7Rt+A6yCxOt9w/TYNpkt52gC6nm/g5tFIng==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  jsonc-morph@0.3.4:
-    resolution: {integrity: sha512-tY9H0tplGdRZ0O/7N0qQGr8RuiwuAqGZfO1NCcy986qdMf2gcWTQnr2YF+Q3VkaCBKN2+mTPSZzewg3V4rWXQg==}
+  jsonc-morph@0.3.5:
+    resolution: {integrity: sha512-48t3FzTaEcePC0xKtadykUy7iqMx9fpxzigbi0YtNdEiPXUr7CoM1rfyBUKg0HW167eaG0EENdjc8aowa1TMvQ==}
 
   jsonc-weaver@0.2.4:
     resolution: {integrity: sha512-aIKK8SOg+TdBdeML4MB++phUEdS7KWZxuaPPjxUSat8Kc/2A+2AoxmAGhvbVajNjqsgSX4dhjfCJq3QlE/NSCg==}
@@ -4018,8 +4018,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.280.4:
-    resolution: {integrity: sha512-YU9OzwdaE5zJWzNXJEHh3mjU7qy/jlZeZQlcUWsRXfG9Ql9vMfb4O0EYz3kWRN2Xgy81jfvvm8LYe7KgZ6UW+Q==}
+  renovate@43.284.0:
+    resolution: {integrity: sha512-g1IAekjWge01enEBNa0JOZSpdDJJD8lLcO1eDSEkTK17Ibnt3sexyh8imMdjWfUShEi70NAtozuzYdFbE+99Bw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -8341,11 +8341,11 @@ snapshots:
       eslint-visitor-keys: 5.0.1
       semver: 7.8.5
 
-  jsonc-morph@0.3.4: {}
+  jsonc-morph@0.3.5: {}
 
   jsonc-weaver@0.2.4:
     dependencies:
-      jsonc-morph: 0.3.4
+      jsonc-morph: 0.3.5
 
   jsonfile@6.2.1:
     dependencies:
@@ -9283,7 +9283,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.280.4(supports-color@10.2.2)(typanion@3.14.0):
+  renovate@43.284.0(supports-color@10.2.2)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
