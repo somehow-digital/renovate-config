@@ -8,7 +8,7 @@
 		"pnpm": ">=10"
 	},
 	"scripts": {
-		"prepare": "husky",
+		"prepare": "vp config --no-agent",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint .",
 		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files .",
@@ -27,9 +27,8 @@
 		"concurrently": "^10.0.0",
 		"cspell": "^10.0.0",
 		"eslint": "^10.1.0",
-		"husky": "^9.0.11",
 		"knip": "^6.0.0",
-		"lint-staged": "^17.0.0",
-		"renovate": "^44.0.0"
+		"renovate": "^44.0.0",
+		"vite-plus": "1.4.0"
 	}
 }
