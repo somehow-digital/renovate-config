@@ -198,7 +198,7 @@ importers:
         version: 6.44.1
       renovate:
         specifier: ^44.0.0
-        version: 44.199.2(supports-color@10.2.2)(typanion@3.14.0)
+        version: 44.200.0(supports-color@10.2.2)(typanion@3.14.0)
       vite-plus:
         specifier: 1.4.0
         version: 1.4.0(@opentelemetry/api@1.10.0)(@types/node@24.19.2)(@vitest/ui@5.0.5)(jiti@2.7.0)(typescript@5.9.3)(yaml@2.9.1)
@@ -4872,8 +4872,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.199.2:
-    resolution: {integrity: sha512-pifD6RstfGlxvaQvqJDRkvc6nEXSYdvvs74DsD57dPZ019XoT7Psvf43XQiCPUsFfJXiSkFszAice7euOng5dQ==}
+  renovate@44.200.0:
+    resolution: {integrity: sha512-ImN6WTTUQah3yIkR/2JkWsrRsmDVDZdNRSCcFPLEaxF+HawTi8ZkWF6KtvBuUIcJtiJoGJobrnmo6eckcY1UWg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -10751,7 +10751,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.199.2(supports-color@10.2.2)(typanion@3.14.0):
+  renovate@44.200.0(supports-color@10.2.2)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
