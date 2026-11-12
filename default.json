@@ -1,7 +1,7 @@
 {
 	"$schema": "./node_modules/renovate/renovate-schema.json",
 	"extends": [":ignoreModulesAndTests", "group:monorepos", "group:recommended", "replacements:all", "workarounds:all"],
-	"dependencyDashboard": true,
+	"dependencyDashboard": { "enabled": true },
 	"assigneesFromCodeOwners": true,
 	"reviewersFromCodeOwners": true,
 	"prConcurrentLimit": 0,
