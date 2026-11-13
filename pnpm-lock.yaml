@@ -197,8 +197,8 @@ importers:
         specifier: ^6.0.0
         version: 6.45.1
       renovate:
-        specifier: ^44.0.0
-        version: 44.235.2(supports-color@10.2.2)(typanion@3.14.0)
+        specifier: 44.228.0
+        version: 44.228.0(supports-color@10.2.2)(typanion@3.14.0)
       vite-plus:
         specifier: 1.6.0
         version: 1.6.0(@opentelemetry/api@1.10.0)(@types/node@24.19.2)(@vitest/ui@5.1.0)(jiti@2.7.0)(typescript@5.9.3)(yaml@2.9.1)
@@ -1956,8 +1956,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.165.1':
-    resolution: {integrity: sha512-gdbx3RjL3t+XRi4Q4OM+WonoSawGPGSrm211UgdqV6kqvFfxUmWCTwSItsr7HoD2NYr5S96cZvkjN5zUt/+aVw==}
+  '@renovatebot/base-image@13.163.7':
+    resolution: {integrity: sha512-L8f/L6m+THcdHXSGvcDP/P/FTw4+ZSqj0SXjW/uvahUUckuNAfepdAUlBPjdxEP4UBwE85jQxoOOY1pjRVYrlA==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -1985,8 +1985,8 @@ packages:
     resolution: {integrity: sha512-L/HtOYInkZGLJCe9h/gpsm2Gig0JWzyvWajrEVK+pP6BGfRl1eFzg7jyVcis7tmht7hvpau/+pMzF60geiLq6w==}
     engines: {node: '>=24.10.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/pgp@2.0.6':
-    resolution: {integrity: sha512-F+bk3E4Nu7V/fZzqgiHHLk9+g+YHNzgA9pU+If1uUZG/VFfvK0dbI6GrmxcwzEecswSwumFU0lCZXKtDpHQsmw==}
+  '@renovatebot/pgp@2.0.4':
+    resolution: {integrity: sha512-Hp8wjIruBAzc1qIAumCU3dN3AgX60r+Wop6FrFNwjpg8r2TIR9DXHZxv2SY7wIWel8wbEaM2jzb+hVQDfYUwUQ==}
     engines: {node: '>=24.10.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/ruby-semver@6.0.0':
@@ -4884,8 +4884,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.235.2:
-    resolution: {integrity: sha512-kH6D7Nt2g1eV6CvZY+P5ocP/p61Kjp6SzdHsNAZ5HtxMKRx3c+vRle5LSjXBpFfSpMQoyXDNy6BjbgkbqqBuiw==}
+  renovate@44.228.0:
+    resolution: {integrity: sha512-K0ZzED7dLaUgNJoGZVv4UrTCBceTbAseDlRXkj+JPFHhqicnxe6XlPnW/c+i0n0IhDpsg31KU1RhUghy5yMNxg==}
     engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -7296,7 +7296,7 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.10.0
 
-  '@renovatebot/base-image@13.165.1(zod@4.6.7)':
+  '@renovatebot/base-image@13.163.7(zod@4.6.7)':
     dependencies:
       '@containerbase/base': 14.66.16(zod@4.6.7)
     optionalDependencies:
@@ -7338,7 +7338,7 @@ snapshots:
 
   '@renovatebot/pep440@6.0.0': {}
 
-  '@renovatebot/pgp@2.0.6': {}
+  '@renovatebot/pgp@2.0.4': {}
 
   '@renovatebot/ruby-semver@6.0.0': {}
 
@@ -10704,7 +10704,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.235.2(supports-color@10.2.2)(typanion@3.14.0):
+  renovate@44.228.0(supports-color@10.2.2)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -10737,12 +10737,12 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.1(@opentelemetry/api@1.10.0)
-      '@renovatebot/base-image': 13.165.1(zod@4.6.7)
+      '@renovatebot/base-image': 13.163.7(zod@4.6.7)
       '@renovatebot/detect-tools': 5.0.0
       '@renovatebot/good-enough-parser': 4.0.3
       '@renovatebot/osv-offline': 4.5.10(supports-color@10.2.2)(zod@4.6.7)
       '@renovatebot/pep440': 6.0.0
-      '@renovatebot/pgp': 2.0.6
+      '@renovatebot/pgp': 2.0.4
       '@renovatebot/ruby-semver': 6.0.0
       '@sindresorhus/is': 8.1.0
       '@yarnpkg/core': 4.9.1(typanion@3.14.0)
