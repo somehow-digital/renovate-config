@@ -38,10 +38,6 @@
 			"groupName": "nuxthub"
 		},
 		{
-			"matchPackageNames": ["react", "react-dom", "react-router", "react-router-dom"],
-			"groupName": "react"
-		},
-		{
 			"matchPackageNames": ["regle", "@regle/*"],
 			"groupName": "regle"
 		}
