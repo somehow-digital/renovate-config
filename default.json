@@ -22,6 +22,10 @@
 	},
 	"packageRules": [
 		{
+			"matchDatasources": ["npm"],
+			"registryUrls": ["https://registry.npmjs.org"]
+		},
+		{
 			"matchPackageNames": ["drizzle-kit", "drizzle-orm", "drizzle-valibot"],
 			"groupName": "drizzle"
 		},
